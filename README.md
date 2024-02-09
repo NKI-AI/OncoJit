@@ -27,6 +27,7 @@ oncojit --model_def <path_to_model_definition_in_original_repo> --weights <path 
 **Note**:
 1. Please note that oncojit assumes the nn.Module which needs jit compilation, loads its weight in the constructor.
 2. Since different open source models are written differently and often without regard for types, it may be possible that you end up fixing the original model definition. 
+
 **Key Features**:
 
 **Optimized Performance**: Leverage the power of JIT compilation to enhance the performance of deep learning models, ensuring quicker load times and faster inference with minimal latency.
