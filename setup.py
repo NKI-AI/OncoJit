@@ -15,13 +15,13 @@ with open("oncojit/__init__.py") as f:
 with open("README.rst") as readme_file:
     long_description = readme_file.read()
 
-install_requires = ["torch>=2.0.1"]
+install_requires = ["torch"]
 
 
 setup(
     author="Ajey Pai Karkala",
     long_description=long_description,
-    python_requires=">=3.10",
+    python_requires=">=3.0.0",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Natural Language :: English",
