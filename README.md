@@ -3,7 +3,18 @@ OncoJit - Accelerating Oncology Models with JIT Compilation
 
 OncoJIT is an innovative deep learning library designed to empower researchers and clinicians in the field of oncology with the speed and efficiency of Just-In-Time (JIT) compilation. By optimizing neural network models specifically for cancer research and clinical applications, OncoJIT enables rapid, real-time inference, facilitating faster diagnostics, personalized treatment planning, and cutting-edge cancer research.
 
-Key Features:
+**Installation**:
+
+```
+git clone https://github.com/NKI-AI/OncoJit.git
+
+cd OncoJit
+
+pip install -e .
+```
+
+
+**Key Features**:
 
 **Optimized Performance**: Leverage the power of JIT compilation to enhance the performance of deep learning models, ensuring quicker load times and faster inference with minimal latency.
 
